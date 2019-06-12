@@ -13,6 +13,7 @@ public class Demo1Servlet extends HttpServlet {
         request.getRequestDispatcher("/helloworld").forward(request,response);
 
         System.out.println("fdfdfdf");
+        System.out.println("有什么困难讲出来,组织上可以给你解决");
 
     }
 
