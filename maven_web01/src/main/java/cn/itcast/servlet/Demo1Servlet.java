@@ -11,6 +11,9 @@ import java.io.IOException;
 public class Demo1Servlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.getRequestDispatcher("/helloworld").forward(request,response);
+
+        System.out.println("fdfdfdf");
+
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
